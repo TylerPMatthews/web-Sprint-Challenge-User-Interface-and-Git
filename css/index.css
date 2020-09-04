@@ -61,8 +61,9 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-family: 'Rubik', sans-serif;
+    padding-top:4%;
 }
 
 p {
@@ -284,21 +285,25 @@ footer {
   background-size: cover;
 
 }
-.images2{
-    display:flex;
-    justify-content:space-evenly;
-    padding-top:5%;
-    padding-bottom:25%;
-}
-
 .images2 h2{
     color:red;
-    display:flex;
-    align-items:flex-end;
-
+    padding-top:5%;
+    border:5px solid red;
+    align-items:end;
 }
+.images2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    margin-top:10%;
+   width:100%;
+  
+}
+
+
 .firstp div{
-    color:red;
+    color:blue;
     display:flex;
     align-self:flex-end;
 }
@@ -306,7 +311,7 @@ footer {
 .aboutbody{
     display:flex;
     flex-direction:row;
-    align-items:stretch;
+    
     
 }
 .aboutbody1 div img{
@@ -317,10 +322,12 @@ footer {
 }
 .h21{
     display:flex;
+    flex-direction:column;
     flex-wrap:wrap;
     padding-top:30%;
     padding-right:25%;
     float:left;
+    color:black;
 }
 .h21 div{
     
@@ -331,13 +338,8 @@ footer {
     align-items:stretch;
     
 }
-.aboutbody2 div img{
-   
-}
-.aboutbody2  a{
-    color:red;
-    text-align:center;
-}
+
+
 .h22{
     display:flex;
     flex-wrap:wrap;
@@ -373,8 +375,40 @@ footer {
     text-decoration:none;
 }
 
+.images4 p{
+font-size:1rem;
+padding-top:1%;
+}
 
+.images a{
+font-size:1rem;
+}
+.button1{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+.button2{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
 
+.button3{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.button4{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
 
 
 
