@@ -346,3 +346,27 @@ padding-top:8%;
 .together p{
     font-size:1rem;
 }
+footer {
+    width: 100%;
+    background: white;
+}
+
+.container nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-bottom:4%;
+    
+    
+
+}
+.container nav a{
+    color:black;
+    text-decoration:none;
+}
+
+
+
+
+
+
