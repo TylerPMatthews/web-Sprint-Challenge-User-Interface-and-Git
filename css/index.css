@@ -57,6 +57,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     margin-left:17%;
     margin-right:17%;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +65,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 13px;
     font-family: 'Rubik', sans-serif;
     padding-top:4%;
+    text-align:center;
 }
 
 p {
@@ -95,6 +97,8 @@ flex-direction:row-reverse;
 display:flex;
 flex-direction:left;
 padding-right:100%;
+margin-top:2%;
+margin-left:10%;
 }
 .backgroundimage{
   background-image: url("/img/jumbo.jpg");
