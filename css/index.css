@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size:67.5%;
 }
 ol, ul {
 	list-style: none;
@@ -54,29 +55,84 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin-left:17%;
+    margin-right:17%;
+    
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-family: 'Rubik', sans-serif;
+    padding-top:4%;
+    text-align:center;
 }
 
 p {
     line-height: 1.4;
 }
+h1{
+    font-size:2rem;
+    padding-bottom:1%;
+    text-align:left;
+}
+header{
+display:flex;
+justify-content:space-around;
+width:85%;
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+
+
 }
 
+header nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-bottom:4%;
+    padding-top:5%;
+    padding-left:3%;
+    
+    
+
+}
+header nav a{
+    color:black;
+    text-decoration:none;
+    display:flex;
+    
+    margin-left:15%;
+   padding-left:15%;
+    
+}
+.navlogo img{
+    
+    padding-top:5%;
+   
+
+}
+.backgroundimage{
+  background-image: url("/img/jumbo.jpg");
+  height:9rem; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-top:5%;
+  padding-bottom:5%;
+
+  ;
+}
+.aboutheadertext p{
+    font-size:1.2rem;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 
 .top-content .text-container {
@@ -88,6 +144,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 
 .middle-content h2 {
@@ -100,11 +158,125 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.line1{
+    border:1px solid black;
+    margin-top:10%;
+    margin-right:15%;
+    width:24rem;
+}
+.line2{
+    border:1px solid black;
+    margin-top:10%;
+    margin-right:15%;
+    width:24rem;
+}
+.line3{
+        border:1px solid black;
+        margin-top:10%;
+        margin-right:15%;
+        width:24rem;
+}
+.line4{
+            border:1px solid black;
+            margin-top:10%;
+            margin-right:15%;
+            width:24rem;
+}
 
-.middle-content .boxes .box {
+.box1{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background-color:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background-color:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background-color:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background-color:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background-color:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background-color:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background-color:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background-color:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background-color:dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -116,6 +288,8 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    padding-top:5%;
+    padding-bottom:5%
 }
 
 .bottom-content .text-container {
@@ -126,21 +300,162 @@ p {
     padding-right: 0;
 }
 
+footer{
+  background-color:black;
+  color:black;
+
+    
+    
+    }
+    
+    footer nav{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;;
+        padding-bottom:4%;
+        padding-top:3%;
+        
+        
+    
+    }
+    footer nav a{
+        color:black;
+        text-decoration:none;
+        display:flex;
+ }
+ /* About page*/
+.headerimage2{
+  background-image: url("/img/jumbo-about.png");
+  height:9rem; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+.images2 h2{
+    
+    padding-top:5%;
+    font-size:1.5rem;
+    
+    
+}
+.images2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+    margin-top:10%;
+   width:100%;
+  
+}
+
+
+.firstp div{
+    color:blue;
+    padding-top:10%;
+}
+
+.aboutbody{
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+.aboutbody1 div img{
+   border:5px 
+}
+.aboutbody p{
+    
+}
+.h21{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    padding-top:30%;
+    padding-right:25%;
+    float:left;
+    color:black;
+}
+.h21 div{
+    
+}
+.aboutbody2{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    
+}
+
+
+.h22{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:30%;
+    padding-right:25%;
+    float:left;
+}
+.h22 div{
+    
+}
+.together{
+padding-top:8%;
+}
+.together p{
+    font-size:1rem;
+}
 footer {
     width: 100%;
-    background: black;
+    background: white;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+.container nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-bottom:4%;
+    
+    
+
+}
+.container nav a{
+    color:black;
+    text-decoration:none;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.images4 p{
+font-size:1rem;
+padding-top:1%;
 }
+
+.images a{
+font-size:1rem;
+}
+.button1{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+.button2{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.button3{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.button4{
+    background-color:white;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+}
+
+
+
